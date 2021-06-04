@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="@dimen/_16mdp"
+    tools:context=".loginplussignin.signup.SecondSignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_backBtn_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5mdp"
+            android:onClick="goBackToHome"
+            android:src="@drawable/back_icon"
+             />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_15mdp"
+            android:layout_gravity="center"
+            android:elevation="@dimen/_8mdp"
+            android:backgroundTint="@color/background"
+            app:cardCornerRadius="@dimen/_2mdp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4mdp"
+                android:src="@drawable/reg" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:fontFamily="@font/muli_black"
+                android:text="select gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18font_mdp" />
+
+            <RadioGroup
+                android:id="@+id/signup_gender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_8mdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10mdp"
+                    android:layout_marginRight="@dimen/_10mdp"
+                    android:padding="@dimen/_5mdp"
+                    android:text="male" />
+
+                <RadioButton
+                    android:id="@+id/femaleGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10mdp"
+                    android:layout_marginRight="@dimen/_10mdp"
+                    android:padding="@dimen/_5mdp"
+                    android:text="female" />
+
+                <RadioButton
+                    android:id="@+id/otherGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5mdp"
+                    android:text="other" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2mdp"
+                android:layout_marginTop="@dimen/_5mdp"
+                android:layout_marginBottom="@dimen/_10mdp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5mdp"
+                android:fontFamily="@font/muli_black"
+                android:text="date of birth"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18font_mdp" />
+
+            <DatePicker
+                android:id="@+id/sign_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8mdp"
+                android:calendarViewShown="false"
+                android:background="@drawable/country_code_picker_background"
+                android:datePickerMode="spinner"
+                android:spinnersShown="true">
+
+            </DatePicker>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sibnup_next_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/btn_back"
+            android:onClick="thirdSigupScreen"
+            android:text="@string/next_btn"
+            app:backgroundTint="@null"
+            android:textColor="@color/black"
+            tools:targetApi="lollipop" />
+
+
+
+    </LinearLayout>
+</ScrollView>

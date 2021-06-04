@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300mdp"
+    android:layout_marginTop="@dimen/_25mdp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_auto_image_slider"
+        android:layout_marginTop="@dimen/_20mdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login"
+        android:scaleType="fitXY" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_shadow_container"
+        android:background="#BEF8F0F0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80mdp"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_auto_image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6mdp"
+            android:text="Get Education"
+            android:layout_marginBottom="@dimen/_25mdp"
+            android:textAlignment="center"
+            android:fontFamily="@font/muli_extrabold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18font_mdp"
+            android:gravity="center_horizontal" />
+
+    </FrameLayout>
+
+</FrameLayout>

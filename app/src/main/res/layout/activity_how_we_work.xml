@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".owner.HowWeWorkActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10mdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/spinwheel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45mdp"
+            android:layout_marginStart="@dimen/_20mdp"
+            android:layout_marginLeft="@dimen/_20mdp"
+            android:layout_marginTop="@dimen/_8mdp"
+            android:layout_marginEnd="@dimen/_8mdp"
+            android:layout_marginRight="@dimen/_8mdp"
+            android:background="@drawable/button_1"
+            android:fontFamily="@font/muli_bold"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_10mdp"
+            android:text="How we work"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_25font_mdp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_220mdp"
+            android:layout_marginTop="@dimen/_15mdp"
+            android:backgroundTint="@color/colorPrimary1"
+            android:elevation="@dimen/_8mdp"
+            app:cardCornerRadius="@dimen/_2mdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_4mdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/howiwork" />
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw1"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw2"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw3"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw4"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@drawable/textbk"
+        android:fontFamily="@font/muli_black"
+
+        android:padding="@dimen/_10mdp"
+        android:text="@string/hwt5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw5"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt6"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw6"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt7"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw7"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw8"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt9"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw9"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hw10"
+            android:fontFamily="@font/muli_black"
+            android:textSize="@dimen/_10font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5mdp" />
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView >

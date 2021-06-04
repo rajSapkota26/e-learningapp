@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".user.quiz.quizactivity.PlayQuizActivity">
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_120mdp"
+        android:background="@drawable/background_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_175mdp"
+        android:layout_marginStart="@dimen/_30mdp"
+        android:layout_marginLeft="@dimen/_30mdp"
+        android:layout_marginTop="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_30mdp"
+        android:layout_marginRight="@dimen/_30mdp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16mdp"
+        android:layout_marginLeft="@dimen/_16mdp"
+        android:layout_marginTop="@dimen/_16mdp"
+        android:drawableLeft="@drawable/ic_timer"
+        android:drawablePadding="@dimen/_10mdp"
+        android:fontFamily="@font/muli_bold"
+        android:text="24"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_16font_mdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16mdp"
+        android:layout_marginEnd="@dimen/_16mdp"
+        android:layout_marginRight="@dimen/_16mdp"
+        android:drawableRight="@drawable/ic_question"
+        android:drawablePadding="@dimen/_10mdp"
+        android:fontFamily="@font/muli_bold"
+        android:text="1/10"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_16font_mdp"
+        app:drawableTint="@color/color_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16mdp"
+        android:layout_marginLeft="@dimen/_16mdp"
+        android:layout_marginTop="@dimen/_16mdp"
+        android:layout_marginEnd="@dimen/_16mdp"
+        android:layout_marginRight="@dimen/_16mdp"
+        android:layout_marginBottom="@dimen/_16mdp"
+        android:fontFamily="@font/muli_bold"
+        android:gravity="center"
+        android:text="Who invented android studio?"
+        android:textColor="@color/color_white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/_65mdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24mdp"
+        android:layout_marginLeft="@dimen/_24mdp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        app:srcCompat="@drawable/fiftyfiftyline" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/_65mdp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_24mdp"
+        android:layout_marginRight="@dimen/_24mdp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        app:srcCompat="@drawable/audiencepoll" />
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@drawable/option_unselected"
+        android:onClick="onClick"
+        android:padding="@dimen/_15mdp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@drawable/option_unselected"
+        android:onClick="onClick"
+        android:padding="@dimen/_15mdp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/option_1"
+        app:layout_constraintStart_toStartOf="@+id/option_1"
+        app:layout_constraintTop_toBottomOf="@+id/option_1" />
+
+    <TextView
+        android:id="@+id/option_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@drawable/option_unselected"
+        android:onClick="onClick"
+        android:padding="@dimen/_15mdp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/option_2"
+        app:layout_constraintStart_toStartOf="@+id/option_2"
+        app:layout_constraintTop_toBottomOf="@+id/option_2" />
+
+    <TextView
+        android:id="@+id/option_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@drawable/option_unselected"
+        android:onClick="onClick"
+        android:padding="@dimen/_15mdp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/option_3"
+        app:layout_constraintStart_toStartOf="@+id/option_3"
+        app:layout_constraintTop_toBottomOf="@+id/option_3" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:layout_marginLeft="@dimen/_8mdp"
+        android:layout_marginTop="@dimen/_24mdp"
+        android:layout_marginEnd="@dimen/_30mdp"
+        android:layout_marginRight="@dimen/_30mdp"
+        android:background="@drawable/btn_back"
+        android:onClick="onClick"
+        android:text="Next"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/quizBtn"
+        app:layout_constraintTop_toBottomOf="@+id/option_4" />
+
+    <Button
+        android:id="@+id/quizBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30mdp"
+        android:layout_marginLeft="@dimen/_30mdp"
+        android:layout_marginTop="@dimen/_24mdp"
+        android:layout_marginEnd="@dimen/_8mdp"
+        android:layout_marginRight="@dimen/_8mdp"
+        android:background="@drawable/btn_back"
+        app:backgroundTint="@null"
+        android:text="Quit"
+        android:onClick="quitQuiz"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/nextBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

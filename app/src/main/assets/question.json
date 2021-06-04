@@ -1,0 +1,129 @@
+{
+  "ivQuestion": [
+    {
+      "id": "1",
+      "question": "What is the difference between JDK and JRE?",
+      "answer": "JDK stands for Java Development Kit. It contains the tools and libraries for development of Java programs. It also contains compilers and debuggers needed to compile Java program, JRE stands for Java Runtime Environment. This is included in JDK. JRE provides libraries and JVM that is required to run a Java program."
+    },
+    {
+      "id": "2",
+      "question": "What is Java Virtual Machine (JVM)?",
+      "answer": "Java Virtual Machine (JVM) is an abstract machine that executes Java Bytecode. There are different JVM for different hardware and software platforms. So JVM is platform dependent. JVM is responsible for loading, verifying and executing the Bytecode on a platform."
+    },
+    {
+      "id": "3",
+      "question": "What are the different types of memory areas allocated by JVM?",
+      "answer": "(In java, JVM allocates memory to different processes, methods and objects. \n Some of the memory areas allocated by JVM are \n 1.  ClassLoader: It is a component of JVM used to load class files. \n 2. Class (Method) Area: It stores per-class structures such as the runtime constant pool, field and method data, and the code for methods. \n 3. Heap: Heap is created a runtime and it contains the runtime data area in which objects are allocated.       \n 4. Stack: Stack stores local variables and partial results at runtime. It also helps in method invocation and return value. Each thread creates a private JVM stack at the time of thread creation.    \n 5. Program Counter Register: This memory area contains the address of the Java virtual machine instruction that is  currently being executed. \n 6. Native Method Stack: This area is reserved for all the native methods used in the application.)"
+    },
+    {
+      "id": "4",
+      "question": "What is JIT compiler?",
+      "answer": "Just In Time compiler also known as JIT compiler is used for performance improvement in Java. It is enabled by default. It is compilation done at execution time rather earlier. Java has popularized the use of JIT compiler by including it in JVM."
+    },
+    {
+      "id": "5",
+      "question": "How Java platform is different from other platforms?",
+      "answer": "Java is a platform independent language. Java compiler converts Java code in to byte code that can be interpreted by JVM. There are JVM written for almost all the popular platforms in the world. Java byte code can run on any supported platform in same way. Where as other languages require libraries compiled for a specific platform to run."
+    },
+    {
+      "id": "6",
+      "question": "Explain public static void main(String args[]) in Java.",
+      "answer": "main() in Java is the entry point for any Java program. It is always written as public static void main(String[] args).\n public: Public is an access modifier, which is used to specify who can access this method. Public means that this Method will be accessible by any Class.\n static: It is a keyword in java which identifies it is class-based. main() is made static in Java so that it can be accessed without creating the instance of a Class. In case, main is not made static then the compiler will throw an error as main() is called by the JVM before any objects are made and only static methods can be directly invoked via the class.\n void: It is the return type of the method. Void defines the method which will not return any value.\n main: It is the name of the method which is searched by JVM as a starting point for an application with a particular signature only. It is the method where the main execution occurs. \n String args[]: It is the parameter passed to the main method."
+    },
+    {
+      "id": "7",
+      "question": "Why Java is platform independent?",
+      "answer": "Java is called platform independent because of its byte codes which can run on any system irrespective of its underlying operating system"
+    },
+    {
+      "id": "8",
+      "question": "What is object cloning in Java?",
+      "answer": "Object cloning in Java is the process of creating an exact copy of an object. It basically means the ability to create an object with a similar state as the original object. To achieve this, Java provides a method clone() to make use of this functionality. This method creates a new instance of the class of the current object and then initializes all its fields with the exact same contents of corresponding fields. To object clone(), the marker interface java.lang.Cloneable must be implemented to avoid any runtime exceptions. One thing you must note is Object clone() is a protected method, thus you need to override it."
+    },
+    {
+      "id": "9",
+      "question": "What is composition in Java?",
+      "answer": "Composition is again a specialized form of Aggregation and we can call this as a “death” relationship. It is a strong type of Aggregation. Child object does not have their lifecycle and if parent object deletes all child object will also be deleted. Let’s take again an example of a relationship between House and rooms. House can contain multiple rooms there is no independent life of room and any room can not belongs to two different houses if we delete the house room will automatically delete."
+    },
+    {
+      "id": "10",
+      "question": "What do you mean by aggregation?",
+      "answer": "An aggregation is a specialized form of Association where all object has their own lifecycle but there is ownership and child object can not belong to another parent object. Let’s take an example of Department and teacher. A single teacher can not belong to multiple departments, but if we delete the department teacher object will not destroy."
+    },
+    {
+      "id": "11",
+      "question": "What is an association?",
+      "answer": "Association is a relationship where all object have their own lifecycle and there is no owner. Let’s take the example of Teacher and Student. Multiple students can associate with a single teacher and a single student can associate with multiple teachers but there is no ownership between the objects and both have their own lifecycle. These relationships can be one to one, one to many, many to one and many to many."
+    },
+    {
+      "id": "12",
+      "question": "What is encapsulation in Java?",
+      "answer": "Encapsulation is a mechanism where you bind your data(variables) and code(methods) together as a single unit. Here, the data is hidden from the outer world and can be accessed only via current class methods. This helps in protecting the data from any unnecessary modification. We can achieve encapsulation in Java by:\n Declaring the variables of a class as private.\n Providing public setter and getter methods to modify and view the values of the variables."
+    },
+    {
+      "id": "13",
+      "question": "What is method overloading and method overriding?",
+      "answer": "Method Overloading :\nIn Method Overloading, Methods of the same class shares the same name but each method must have a different number of parameters or parameters having different types and order.\nMethod Overloading is to “add” or “extend” more to the method’s behavior.\n It is a compile-time polymorphism.\nThe methods must have a different signature.\n It may or may not need inheritance in Method Overloading./nMethod Overriding: \n In Method Overriding, the subclass has the same method with the same name and exactly the same number and type of parameters and same return type as a superclass.\n Method Overriding is to “Change” existing behavior of the method.\n It is a run time polymorphism.\n The methods must have the same signature.\n It always requires inheritance in Method Overriding."
+    },
+    {
+      "id": "14",
+      "question": " What are the different types of inheritance in Java?",
+      "answer": "Java supports four types of inheritance which are:\n 1.Single Inheritance: In single inheritance, one class inherits the properties of another i.e there will be only one parent as well as one child class.\n 2.Multilevel Inheritance: When a class is derived from a class which is also derived from another class, i.e. a class having more than one parent class but at different levels, such type of inheritance is called Multilevel Inheritance.\n 3.Hierarchical Inheritance: When a class has more than one child classes (subclasses) or in other words, more than one child classes have the same parent class, then such kind of inheritance is known as hierarchical.\n Hybrid Inheritance: Hybrid inheritance is a combination of two or more types of inheritance"
+    },
+    {
+      "id": "15",
+      "question": "What do you mean by an interface in Java?",
+      "answer": "An interface in Java is a blueprint of a class or you can say it is a collection of abstract methods and static constants. In an interface, each method is public and abstract but it does not contain any constructor. Thus, interface basically is a group of related methods with empty bodies. Example: \n public interface Animal {  \n public void eat(); \n public void sleep(); \n public void run();\n }"
+    },
+    {
+      "id": "16",
+      "question": "What is abstraction in Java?",
+      "answer": "Abstraction refers to the quality of dealing with ideas rather than events. It basically deals with hiding the details and showing the essential things to the user. Thus you can say that abstraction in Java is the process of hiding the implementation details from the user and revealing only the functionality to them. Abstraction can be achieved in two ways:\n 1.Abstract Classes (0-100% of abstraction can be achieved) \n 2.Interfaces (100% of abstraction can be achieved)"
+    },
+    {
+      "id": "17",
+      "question": "Why Java Strings are immutable in nature?",
+      "answer": "In Java, string objects are immutable in nature which simply means once the String object is created its state cannot be modified. Whenever you try to update the value of that object instead of updating the values of that particular object, Java creates a new string object. Java String objects are immutable as String objects are generally cached in the String pool. Since String literals are usually shared between multiple clients, action from one client might affect the rest. It enhances security, caching, synchronization, and performance of the application."
+    },
+    {
+      "id": "18",
+      "question": "What is a classloader in Java?",
+      "answer": "The Java ClassLoader is a subset of JVM (Java Virtual Machine) that is responsible for loading the class files. Whenever a Java program is executed it is first loaded by the classloader. Java provides three built-in classloaders:\n 1.Bootstrap ClassLoader\n 2.Extension ClassLoader\n 3.System/Application ClassLoader"
+    },
+    {
+      "id": "19",
+      "question": "What is Object Oriented Programming?",
+      "answer": "Object-oriented programming or popularly known as OOPs is a programming model or approach where the programs are organized around objects rather than logic and functions. In other words, OOP mainly focuses on the objects that are required to be manipulated instead of logic. This approach is ideal for the programs large and complex codes and needs to be actively updated or maintained."
+    },
+    {
+      "id": "20",
+      "question": "What is JIT compiler in Java?",
+      "answer": "JIT stands for Just-In-Time compiler in Java. It is a program that helps in converting the Java bytecode into instructions that are sent directly to the processor. By default, the JIT compiler is enabled in Java and is activated whenever a Java method is invoked. The JIT compiler then compiles the bytecode of the invoked method into native machine code, compiling it “just in time” to execute. Once the method has been compiled, the JVM summons the compiled code of that method directly rather than interpreting it. This is why it is often responsible for the performance optimization of Java applications at the run time"
+    },
+    {
+      "id": "21",
+      "question": "Why pointers are not used in Java?",
+      "answer": "Java doesn’t use pointers because they are unsafe and increases the complexity of the program. Since, Java is known for its simplicity of code, adding the concept of pointers will be contradicting. Moreover, since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,  pointers are discouraged in Java."
+    },
+    {
+      "id": "22",
+      "question": "What is singleton class in Java and how can we make a class singleton?",
+      "answer": "Singleton class is a class whose only one instance can be created at any given time, in one JVM. A class can be made singleton by making its constructor private."
+    },
+    {
+      "id": "23",
+      "question": "What are constructors in Java?",
+      "answer": "In Java, constructor refers to a block of code which is used to initialize an object. It must have the same name as that of the class. Also, it has no return type and it is automatically called when an object is created.\n There are two types of constructors:\n 1.Default Constructor: In Java, a default constructor is the one which does not take any inputs. In other words, default constructors are the no argument constructors which will be created by default in case you no other constructor is defined by the user. Its main purpose is to initialize the instance variables with the default values. Also, it is majorly used for object creation. \n 2.Parameterized Constructor: The parameterized constructor in Java, is the constructor which is capable of initializing the instance variables with the provided values. In other words, the constructors which take the arguments are called parameterized constructors."
+    },
+    {
+      "id": "24",
+      "question": "Why Java is not 100% Object-oriented?",
+      "answer": "Java is not 100% Object-oriented because it makes use of eight primitive data types such as boolean, byte, char, int, float, double, long, short which are not objects."
+    },
+    {
+      "id": "25",
+      "question": "What are wrapper classes in Java?",
+      "answer": "Wrapper classes convert the Java primitives into the reference types (objects). Every primitive data type has a class dedicated to it. These are known as wrapper classes because they “wrap” the primitive data type into an object of that class. Refer to the below image which displays different primitive type, wrapper class and constructor argument."
+    }
+  ]
+}

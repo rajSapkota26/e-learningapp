@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+    <string name="retailer_heading">Grow\nYour Business</string>
+    <string name="retailer_desc">We will help you to grow your business using online survice</string>
+    <string name="login">login</string>
+    <string name="signup">Signup</string>
+    <string name="how_we_work">how we work</string>
+    <string name="next_btn">next</string>
+
+    <!--back4 app -->
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">2CQyGRQmHcgmM45vALAtOY6KOKTAEGlU5ohkOqbg</string>
+    <string name="back4app_client_key">YRJaVvRkKVI5xIRtoLcusM4JicWcoBlh30qTJS6m</string>
+
+    <!--quiz string -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="spin_wheel">Spin Wheel</string>
+    <string name="earn_money">- Earn Money</string>
+    <string name="collect_coins">- Collect Coins</string>
+    <string name="choose_category">- Choose Category</string>
+    <string name="instructions">Instructions</string>
+    <string name="play_quiz">- Play Quiz</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="current_coins">Current Coins</string>
+    <string name="withdraw_coin">50.000 coins required to withdraw \n Select One platform for withdraw</string>
+    <string name="paypal_email_address">Paypal Email Address</string>
+    <string name="send_request">Send Request</string>
+
+    <!--Rating app -->
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">Please  support us \n By giving 5 star Rating</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <!-- how we work-->
+    <string name="hwt10">TEAM MOTIVATION</string>
+    <string name="hwt9">CONTINUOUS INTEGRATION, \n AUTOMATED DEPLOYMENT AND PROVISIONING</string>
+    <string name="hwt8">CODE IS ALWAYS ACCESSIBLE - GIT/SVN</string>
+    <string name="hwt7">QA AND TESTING</string>
+    <string name="hwt6">STABLE DEMO ENVIRONMENT</string>
+    <string name="hwt5">REGULAR CALLS AND MEETINGS</string>
+    <string name="hwt4">TEAMWORK</string>
+    <string name="hwt3">ALL THE TEAM IS ALIGNED</string>
+    <string name="hwt2">AGILE SOFTWARE DEVELOPMENT</string>
+    <string name="hwt1">FULLY DEVOTED TO THE PROJECT</string>
+
+    <string name="hw10">At the end of the day we believe that motivation is the road to success. Through many team-building activities and events after working hours, we keep our team positive and ready for new accomplishments. Our people genuinely love what they do, and by maintaining that passion through our company culture, we can all achieve great things..</string>
+    <string name="hw9">Testing and validation process is always part of the development. For us it is a must to have a dedicated tester, creating test scenarios, catching regressions and producing automated integration, unit and UI tests..</string>
+    <string name="hw8">When outsourcing a software project, by default both the delivered code and intellectual property are private property of the client. As such, we keep them accessible but secured in Git, SVN or Bitbucket.</string>
+    <string name="hw7">Testing and validation is also crucial. For us, having a dedicated tester is a must, who will create test scenarios, catch regressions and produce automated integration, as well as unit and UI tests.</string>
+    <string name="hw6">Many projects depend on the buy-in of all the stakeholders which is why we create demos to show progress and successfully implemented features, using real or test data. A stable test is an essential part of the process before going forward into production.</string>
+    <string name="hw5">One of our top priorities is quick reaction time and accessibility. We really want to be your extended team, so apart from the regular daily/weekly meetings, you can be sure that each of our team members is one phone call, skype call or email away</string>
+    <string name="hw4">Having regular knowledge sharing sessions, code reviews and daily standups means all the team members are well aligned and no one needs to reinvent the wheel when it comes to implementing a similar feature to already existing ones. You can count on shared knowledge and expertise from the rest of our teams working on other projects.</string>
+    <string name="hw3">We start our week with a regular breakfast at the office before working hours. During this time we discuss the new challenges that we are excited to face during the new week and get our software development team aligned. We believe that company culture and communication are essential in meeting every requirement of our clients. That is why we organize internal company events on which different teams present their experience and share ideas with others on how to improve their current project. We share, we give, we achieve - together.</string>
+    <string name="hw2">All of our teams follow Scrum methodology, which has proven to give great results and helps to keep all project stakeholders in sync.. It helps us all be flexible for your requirements and have the software delivered in iterative steps. No matter if you are in Europe or America, everyone can take part in the daily standup or have a closer look in the Jira backlog.</string>
+    <string name="hw1">The secret to success is the balance between enjoying what you do and taking the responsibility to do it in the most adept way. Even though we already have people on 24/7 support, our developers often respond to business emails after working hours, to make sure your software platform is as good as it can possibly be. They do this out of choice, and we couldnt be prouder of their drive and dedication to customer service and professional self-improvement.</string>
+</resources>

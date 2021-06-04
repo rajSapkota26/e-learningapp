@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5mdp"
+    android:background="#E4E4E4"
+    android:padding="@dimen/_5mdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10mdp"
+            android:layout_marginLeft="@dimen/_10mdp"
+            android:fontFamily="@font/muli_light"
+            android:text="#1"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="@dimen/_35mdp"
+            android:layout_height="@dimen/_35mdp"
+            android:layout_marginRight="@dimen/_10mdp"
+            android:layout_marginLeft="@dimen/_10mdp"
+            android:src="@drawable/profile_icon" />
+
+        <TextView
+            android:id="@+id/nameu"
+            android:layout_width="@dimen/_100mdp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10mdp"
+            android:layout_marginLeft="@dimen/_10mdp"
+            android:fontFamily="@font/muli_black"
+            android:text="Spabinash "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/scores"
+            android:layout_width="@dimen/_100mdp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_8mdp"
+            android:fontFamily="@font/muli_bold"
+            android:text="24665"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.UserDashBoard">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickArticle"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/circle_one"
+                        android:padding="@dimen/_15mdp"
+                        android:src="@drawable/ic_baseline_article_24" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="Atricles"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickInterview"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:background="@drawable/circle_two"
+                        android:padding="@dimen/_15mdp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/question_icon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="Interview Questions"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickResources"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/circle_three"
+                        android:padding="@dimen/_15mdp"
+                        android:src="@drawable/source_icon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="Resources"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickEbooks"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:background="@drawable/circle_four"
+                        android:padding="@dimen/_15mdp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/book_icon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="EBooks"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickVideo"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/circle_five"
+                        android:padding="@dimen/_15mdp"
+                        android:src="@drawable/video_icon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="Video Lecture"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/muli_extrabold"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+
+                android:onClick="onClickQuiz"
+                android:layout_width="@dimen/_150mdp"
+                android:layout_height="@dimen/_150mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:padding="@dimen/_10mdp"
+                app:cardElevation="@dimen/_8mdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5mdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_90mdp"
+                        android:layout_height="@dimen/_90mdp"
+                        android:background="@drawable/circle_six"
+                        android:padding="@dimen/_15mdp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/quiz_icon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1mdp"
+                        android:layout_marginTop="@dimen/_10mdp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8mdp"
+                        android:padding="@dimen/_5mdp"
+                        android:text="Quiz"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

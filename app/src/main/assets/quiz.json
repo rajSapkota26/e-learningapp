@@ -1,0 +1,523 @@
+{
+   "categories": [
+      {
+         "id": "1",
+         "name": "Java",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fjava%20logo.png?alt=media&token=1213aa5e-b6f8-46a8-8ae3-8d37e4729e9d"
+      }, {
+         "id": "2",
+         "name": "Ds Algo",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fdsalgo%20logo.png?alt=media&token=c5150c75-583b-438f-8657-3ee33cb5c7ab"
+      }, {
+         "id": "3",
+         "name": "Web",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fweb%20logo.png?alt=media&token=f20bf2d7-1e51-41d6-ba2f-b6feefe73888"
+      }, {
+         "id": "4",
+         "name": "Spring",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fspring%20logo.png?alt=media&token=9c0e9622-4732-4038-8662-12c823524d72"
+      }, {
+         "id": "5",
+         "name": "Android",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fandroid%20logo.png?alt=media&token=2c6aa3b3-1719-4f7b-80d6-23d97401071b"
+      }, {
+         "id": "6",
+         "name": "Os",
+         "image": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FcategoryImage%2Fos%20logo.png?alt=media&token=4e72510a-1eaa-4cc3-8ac9-b89451358403"
+      }
+
+   ],
+   "Java": [
+      {
+      "question": " What is the size of int variable?",
+      "option1": "A - 8 bit",
+      "option2": "B - 16 bit",
+      "option3": "C - 32 bit",
+      "option4": "D - 64 bit",
+      "ans": "C - 32 bit"
+   },
+      {
+      "question": " What is the default value of byte variable?",
+      "option1": "A - 0",
+      "option2": "B - 0.0",
+      "option3": "C - Null",
+      "option4": "D - not defined",
+      "ans": "A - 0"
+   },
+      {
+      "question": "Which of the following is true about String?",
+      "option1": "A - String is mutable.",
+      "option2": "B - String is immutable.",
+      "option3": "C - String is a data type.",
+      "option4": "D - None of the above.",
+      "ans": "B - String is immutable."
+   },
+      {
+      "question": "which operator is considered to be with highest precedence?",
+      "option1": "A - () , []",
+      "option2": "B - =",
+      "option3": "C - ?:",
+      "option4": "D - %",
+      "ans": "A - () , []"
+   },
+      {
+      "question": " Which class can access all public and protected methods and fields of its super class?",
+      "option1": "A - Inner class",
+      "option2": "B - Outer class",
+      "option3": "C - Sub class",
+      "option4": "D - Super class",
+      "ans": "C - Sub class"
+   },
+      {
+      "question": "Method,Field can be accessed from the same class to which they belong.",
+      "option1": "A - Public",
+      "option2": "B- Private",
+      "option3": "C - Protected",
+      "option4": "D - Default",
+      "ans": "B- Private"
+   },
+      {
+      "question": "In java, float takes _________ bytes in memory.",
+      "option1": "A - 2",
+      "option2": "B - 16",
+      "option3": "C - 8",
+      "option4": "D - 4",
+      "ans": "D - 4"
+   },
+      {
+      "question": "Which method of the Runnable interface that must be implemented by all threads?",
+      "option1": "A - Run()",
+      "option2": "B - Start()",
+      "option3": "C - Sleep()",
+      "option4": "D - Wait()",
+      "ans": "A - Run()"
+   },
+      {
+      "question": " Which tool is required on each machine to run a Java program?",
+      "option1": "A - JDK",
+      "option2": "B - SDK",
+      "option3": "C - JRE",
+      "option4": "D - CVS",
+      "ans": "A - JDK"
+   },
+      {
+      "question": "What will be the output of Round(3.7)",
+      "option1": "A - 3",
+      "option2": "B - 3.7",
+      "option3": "C - 4",
+      "option4": "D - 0",
+      "ans": "C - 4"
+   }
+   ],
+   "Ds Algo": [
+      {
+      "question": "For a binary search algorithm to work, it is necessary that the array (list) must be",
+      "option1": "A - sorted",
+      "option2": "B - unsorted",
+      "option3": "C - in a heap",
+      "option4": "D - popped out of stack",
+      "ans": "A - sorted"
+   },
+      {
+      "question": "Queue data structure works on",
+      "option1": "A - LIFO",
+      "option2": "B - FIFO",
+      "option3": "C - FILO",
+      "option4": "D - none of the above",
+      "ans": "B - FIFO"
+   },
+      {
+      "question": "Quick sort algorithm is an example of",
+      "option1": "A - Greedy approach",
+      "option2": "B - Improved binary search",
+      "option3": "C - Dynamic Programming",
+      "option4": "D - Divide and conquer",
+      "ans": "D - Divide and conquer"
+   },
+      {
+      "question": "Which of the following algorithm is not stable?",
+      "option1": "A - Bubble Sort",
+      "option2": "B - Quick Sort",
+      "option3": "C - Merge Sort",
+      "option4": "D - Insertion Sort",
+      "ans": "B - Quick Sort"
+   },
+      {
+      "question": "An algorithm is",
+      "option1": "A - a piece of code to be executed.",
+      "option2": "B - a loosely written code to make final code.",
+      "option3": "C - a step by step procedure to solve problem.",
+      "option4": "D - all of the above.",
+      "ans": "C - a step by step procedure to solve problem."
+   },
+      {
+      "question": "In context with time-complexity, find the odd out −",
+      "option1": "A - Deletion from Linked List.",
+      "option2": "B - Searching in Hash Table",
+      "option3": "C - Adding edge in Adjacency Matrix",
+      "option4": "D - Heap if y a Binary Heap",
+      "ans": "D - Heap if y a Binary Heap"
+   },
+      {
+      "question": " Index of arrays in C programming langauge starts from",
+      "option1": "A - 0",
+      "option2": "B - 1",
+      "option3": "C - either 0 or 1",
+      "option4": "D - undefined",
+      "ans": "A - 0"
+   },
+      {
+      "question": "In C programming, when we remove an item from bottom of the stack, then −",
+      "option1": "A - The stack will fall down.",
+      "option2": "B - Stack will rearranged items.",
+      "option3": "C - It will convert to LIFO",
+      "option4": "D - This operation is not allowed.",
+      "ans": "B - Stack will rearranged items."
+   },
+      {
+      "question": "A pivot element to partition unsorted list is used in",
+      "option1": "A - Merge Sort",
+      "option2": "B - Quick Sort",
+      "option3": "C - Insertion Sort",
+      "option4": "D - Selection Sort",
+      "ans": "B - Quick Sort"
+   },
+      {
+      "question": "Aposterior analysis are more accurate than apriori analysis because −",
+      "option1": "A - it contains the real data.",
+      "option2": "B - it assumes all other factors to be dynamic.",
+      "option3": "C - it assumes all other factors to be constant.",
+      "option4": "D - it is a result of reverse-engineering.",
+      "ans": "B - it assumes all other factors to be dynamic."
+   }
+   ],
+   "Web": [
+      {
+      "question": "Which of following is not an attribute of <form> tag",
+      "option1": "A -  Action",
+      "option2": "B -  Method",
+      "option3": "C -  name",
+      "option4": "D -  url",
+      "ans": "D -  url"
+   },
+      {
+      "question": " HTML Is A Subset Of",
+      "option1": "A -  SGMT",
+      "option2": "B -  SGMD",
+      "option3": "C - SGML",
+      "option4": "D - None Of These",
+      "ans": "C - SGML"
+   },
+      {
+      "question": "ALL HTML Tags Are Must Be Enclosed In?",
+      "option1": "A -   ? And !",
+      "option2": "B - < And > ",
+      "option3": "C - { And }",
+      "option4": "D - # And #",
+      "ans": "C - { And }"
+   },
+      {
+         "question": "The BODY Tag Is Usually Used After ",
+         "option1": "A -  EM Tag",
+         "option2": "B -   HTML Tag",
+         "option3": "C -  TITLE Tag",
+         "option4": "D -  HEAD Tag",
+         "ans": "B -   HTML Tag"
+      },
+      {
+         "question": "Gif And Jpg Are The Two Main Types Of What ? ",
+         "option1": "A -  Videos",
+         "option2": "B -  Images",
+         "option3": "C - Animated Effects",
+         "option4": "D - None Of The Above",
+         "ans": "C - Animated Effects"
+      },
+      {
+         "question": " Which Is Not A Property Of Attribute Behaviour Of &lt;Marquee> Tag? ",
+         "option1": "A -  Blur",
+         "option2": "B -  Scroll",
+         "option3": "C - Alternate",
+         "option4": "D - Slide",
+         "ans": "C - Alternate"
+      },
+      {
+         "question": "A Simple Text File Which Tells The Browser What To Cache Is Known As A ________. ",
+         "option1": "A -  Input Files",
+         "option2": "B -  Output Files",
+         "option3": "C - A Manifest File",
+         "option4": "D - HTML File",
+         "ans": "D - HTML File"
+      },
+      {
+         "question": "Which attribute sets the text direction as related to lang attribute. ",
+         "option1": "A -  Sub",
+         "option2": "B -  Dir",
+         "option3": "C - Lang",
+         "option4": "D - Ds",
+         "ans": "C - Lang"
+      },
+      {
+         "question": "Which tag is used to create a checkbox in HTML? ",
+         "option1": "A -   <checkbox>\n \n \n ",
+         "option2": "B -  <Input type = \"checkbox\">",
+         "option3": "C - <cb>",
+         "option4": "D - <Input type = \"check\">",
+         "ans": "B -  <Input type = \"checkbox\">"
+      },
+      {
+         "question": "12. Which HTML Tag Is ssed to define A Client - Side Script Such as The Javascript? ",
+         "option1": "A - <script>",
+         "option2": "B - <unscript>",
+         "option3": "C - Both Above",
+         "option4": "D - None Of The Above",
+         "ans": "A - <script>"
+      }
+
+   ],
+   "Spring": [
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   } ,
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      }],
+   "Android": [
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   } ,
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      },
+      {
+         "question": " ",
+         "option1": "A -  ",
+         "option2": "B -  ",
+         "option3": "C - ",
+         "option4": "D - ",
+         "ans": ""
+      }],
+   "Os": [
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   } ,
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   },
+      {
+      "question": " ",
+      "option1": "A -  ",
+      "option2": "B -  ",
+      "option3": "C - ",
+      "option4": "D - ",
+      "ans": ""
+   }
+   ]
+
+  
+}

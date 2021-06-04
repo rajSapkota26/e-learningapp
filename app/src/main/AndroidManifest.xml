@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raj.eLearning">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyOwnApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.raj.eLearning.owner.HowWeWorkActivity">
+
+        </activity>
+        <activity android:name="com.raj.eLearning.user.quiz.quizactivity.SpinnerActivity" />
+        <activity android:name="com.raj.eLearning.user.quiz.quizactivity.QuizResultActivity" />
+        <activity android:name="com.raj.eLearning.user.quiz.quizactivity.PlayQuizActivity" />
+        <activity android:name="com.raj.eLearning.user.finalview.BookOpenViewActivity" />
+        <activity android:name="com.raj.eLearning.user.finalview.ArticleOpenViewActivity" />
+        <activity android:name="com.raj.eLearning.user.finalview.VideoOpenViewActivity" />
+        <activity android:name="com.raj.eLearning.user.activities.RateUsActivity" />
+        <activity
+            android:name="com.raj.eLearning.user.activities.UserProfileActivity"
+            android:label="Sp abinash" />
+        <activity android:name="com.raj.eLearning.owner.AboutMeActivity" />
+        <activity android:name="com.raj.eLearning.user.quiz.quizactivity.QuizActivity" />
+        <activity android:name="com.raj.eLearning.user.activities.VideoLActivity" />
+        <activity
+            android:name="com.raj.eLearning.user.activities.EbookActivity"
+            android:label="Some Useful Books" />
+        <activity
+            android:name="com.raj.eLearning.user.activities.ResourcesActivity"
+            android:label="Some Important Resources " />
+        <activity android:name="com.raj.eLearning.user.activities.InterviewActivity" />
+        <activity
+            android:name="com.raj.eLearning.user.activities.ArticlesActivity"
+            android:label="Some Useful Articles " />
+        <activity android:name="com.raj.eLearning.user.UserDashBoard" />
+        <activity android:name="com.raj.eLearning.loginplussignin.forgotpassword.FifthForgotPasswordActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.forgotpassword.ThirdForgotPasswordActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.forgotpassword.FourthForgotPasswordActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.forgotpassword.SecondForgotPasswordActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.forgotpassword.FirstForgotPasswordActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.login.LogInActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.signup.ThirdSignUpActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.signup.SecondSignUpActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.signup.FirstSignUpActivity" />
+        <activity android:name="com.raj.eLearning.loginplussignin.WelcomeLoginSignupActivity" />
+        <activity android:name="com.raj.eLearning.onboardingscreen.OnBoardingActivity" />
+        <activity android:name="com.raj.eLearning.splashscreen.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.raj.eLearning.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+    </application>
+
+</manifest>

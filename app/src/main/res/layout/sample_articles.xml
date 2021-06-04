@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_2mdp"
+    android:elevation="@dimen/_10mdp"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:background="@drawable/textbk"
+            android:fontFamily="@font/muli_black"
+            android:padding="@dimen/_10mdp"
+            android:text="@string/hwt1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16font_mdp"/>
+
+
+        <ImageView
+            android:id="@+id/article_image"
+            android:layout_width="@dimen/_150mdp"
+            android:layout_height="@dimen/_150mdp"
+            android:scaleType="fitXY"
+            android:layout_margin="@dimen/_5mdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_article_24" />
+
+        <TextView
+
+            android:layout_margin="@dimen/_5mdp"
+            android:id="@+id/article_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_light"
+            android:textSize="@dimen/_14font_mdp"
+            android:ellipsize="end"
+            android:maxEms="16"
+            android:maxLines="4"
+            android:text="SQLite supports relationships just like any other relational database management system."
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

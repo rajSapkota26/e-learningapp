@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="Articles" />
+        <item
+            android:id="@+id/nav_interview"
+            android:icon="@drawable/question_icon"
+            android:title="Interview Question" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/source_icon"
+            android:title="Resources" />
+        <item
+            android:id="@+id/nav_ebook"
+            android:icon="@drawable/book_icon"
+            android:title="E-books" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video_icon"
+            android:title="Video lecture" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiz_icon"
+            android:title="Quiz" />
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logIn"
+                    android:icon="@drawable/login_icon"
+                    android:title="@string/login" />
+                <item
+                    android:id="@+id/nav_Profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile"
+                    android:visible="true"/>
+                <item
+                    android:id="@+id/nav_logOut"
+                    android:icon="@drawable/log_out_icon"
+                    android:title="LogOut"
+                    android:visible="false"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item android:title="share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share_share"
+                    android:icon="@drawable/share_icon"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_share_rateus"
+                    android:icon="@drawable/rate_icon"
+                    android:title="Rate us" />
+
+
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/profile_icon"
+        android:title="About Us" />
+</menu>

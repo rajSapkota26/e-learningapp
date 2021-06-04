@@ -1,0 +1,95 @@
+{
+	"articles": [
+		{
+			"id": "1",
+			"title": "Upload file into folder in servlet and jsp",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Ffileupload.jpg?alt=media&token=075f331b-86ce-4d31-aa52-588f044ada12",
+			"desc": "First of all We create two jsp file one for getting file and second for view file, then we create model class, dao class, connection class and upload file class  ",
+			"articleLink": "https://everestcoders.blogspot.com/2021/05/upload-file-into-folder-in-servlet-and.html"
+		},
+		{
+			"id": "2",
+			"title": "JSON Parsing in Android using Retrofit Library",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fjsonparcing.jpg?alt=media&token=0b9c4ad3-803a-41b5-8da7-6420869b1671",
+			"desc": "We will be building a simple application in which we will be displaying a simple CardView in which we will display a single course that is available on Geeks for Geeks ",
+			"articleLink": "https://www.geeksforgeeks.org/json-parsing-in-android-using-retrofit-library/"
+		},
+		{
+			"id": "3",
+			"title": "Using the CardView",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fcard_travel.png?alt=media&token=e71c9f18-0aa5-4eed-b741-dba0e2330cff",
+			"desc": "Overview Android 7.0 introduces a new widget called CardView which essentially can be thought of as a FrameLayout with rounded corners and shadow based on its elevation.Note that a CardView wraps a layout and will often be the container used in a layout for each item within a ListView or RecyclerView.",
+			"articleLink": "https://guides.codepath.com/android/using-the-cardview#:~:text=Android%207.0%20introduces%20a%20new,within%20a%20ListView%20or%20RecyclerView."
+		},
+		{
+			"id": "4",
+			"title": "Simple binary tree",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fbinarytree.png?alt=media&token=6a128f9a-b284-45ea-9efe-6588445304f9",
+			"desc": "In computer science, a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. ",
+			"articleLink": "https://everestcoders.blogspot.com/2020/11/simple-binary-tree.html"
+		},
+		{
+			"id": "5",
+			"title": "Change app mode according to network state",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fnetworkstate.png?alt=media&token=bd6c80ce-b6b6-4869-b320-98164543f565",
+			"desc": "Different events, some user-triggered and some system-triggered, can cause an Activity to transition from one state to another. This document describes some common cases in which such transitions happen, and how to handle those transitions. ",
+			"articleLink": "https://everestcoders.blogspot.com/2021/02/change-app-mode-according-to-network.html"
+		},
+		{
+			"id": "6",
+			"title": "Spring boot server-side validation",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fspringbootserverside.jpg?alt=media&token=1afca8d0-f265-488b-85be-fb51b474a686",
+			"desc": "This Spring Boot tutorial helps you learn to code validation for form fields in a Spring Boot application with JSP/Thymeleaf view.  ",
+			"articleLink": "https://everestcoders.blogspot.com/2021/05/spring-boot-server-side-main-class.html"
+		},
+		{
+			"id": "7",
+			"title": "json apply on android from assert folder",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fjsonparcing.jpg?alt=media&token=0b9c4ad3-803a-41b5-8da7-6420869b1671",
+			"desc": "Json parsing in android read json file from asset folder ",
+			"articleLink": "http://arprogramming.blogspot.com/2020/05/json-parsing-in-android.html?view=sidebar"
+		},
+		{
+			"id": "8",
+			"title": "Android Animation Example",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fandroidanimation.jpg?alt=media&token=55f7e8e0-f01e-4ea2-99b2-0755ffde0792",
+			"desc": "Android provides a large number of classes and interface for the animation development. Most of the classes and interfaces are given in android.animation package. ",
+			"articleLink": "https://www.javatpoint.com/android-animation-example"
+		},
+		{
+			"id": "9",
+			"title": "Best email apps for Android",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fbestemail.png?alt=media&token=1e2c1225-9227-406f-9740-3234b742f993",
+			"desc": "Email (or electronic mail) is one of the oldest, famous, and important forms of online communication. It may be used for personal or for official purposes. There are lots of email service providers, and email apps are available. People can create their email account on some popular email service providers such as Gmail, Yahoo, Outlook, etc.",
+			"articleLink": "https://www.javatpoint.com/best-email-apps-for-android "
+		},
+		{
+			"id": "10",
+			"title": "Android AlertDialog Example",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Falertdialogue.jpg?alt=media&token=269c468d-4e41-4f39-8599-c67ae60daf45",
+			"desc": " Android AlertDialog can be used to display the dialog message with OK and Cancel buttons. It can be used to interrupt and ask the user about his/her choice to continue or discontinue.",
+			"articleLink": "https://www.javatpoint.com/android-alert-dialog-example"
+		},
+		{
+			"id": "11",
+			"title": "Android Emulator",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Fimmulator.png?alt=media&token=b5e48a4b-a821-427d-8dc6-68689fa85bdd",
+			"desc": " The Android emulator is an Android Virtual Device (AVD), which represents a specific Android device. We can use the Android emulator as a target device to execute and test our Android application on our PC",
+			"articleLink": "https://www.javatpoint.com/android-emulator"
+		},
+		{
+			"id": "12",
+			"title": "Android Activity Lifecycle",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Factivitylifecycle.jpg?alt=media&token=3f4902e5-40c3-41bf-84cf-33545d62f0c1",
+			"desc": "Android Activity Lifecycle is controlled by 7 methods of android.app.Activity class. The android Activity is the subclass of ContextThemeWrapper class. ",
+			"articleLink": "https://www.javatpoint.com/android-life-cycle-of-activity"
+		},
+		{
+			"id": "13",
+			"title": "Android RecyclerView List Example",
+			"imageUrl": "https://firebasestorage.googleapis.com/v0/b/myquiz-2b322.appspot.com/o/MyFinalProjects%2FJson%2Fimg%2Frecycler_view.jpg?alt=media&token=0025549a-a946-48b3-b965-c7c503938677",
+			"desc": "The RecyclerView class extends the ViewGroup class and implements ScrollingView interface. It is introduced in Marshmallow. It is an advanced version of the ListView with improved performance and other benefits. RecyclerView is mostly used to design the user interface with the fine-grain control over the lists and grids of android application. ",
+			"articleLink": "https://www.javatpoint.com/android-recyclerview-list-example"
+		}
+	]
+}

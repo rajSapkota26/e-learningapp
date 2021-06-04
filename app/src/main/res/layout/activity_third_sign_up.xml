@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="@dimen/_20mdp"
+    tools:context=".loginplussignin.signup.ThirdSignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_backBtn_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5mdp"
+            android:onClick="goBackToHome"
+            android:src="@drawable/back_icon"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_15mdp"
+            android:layout_gravity="center"
+            android:elevation="@dimen/_8mdp"
+            android:backgroundTint="@color/background"
+            app:cardCornerRadius="@dimen/_2mdp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4mdp"
+                android:src="@drawable/reg" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/countryCode"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_40mdp"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_showFlag="true"
+                app:ccp_showNameCode="true"
+                app:ccp_showFullName="true"
+                android:padding="@dimen/_5mdp"
+                android:background="@drawable/country_code_picker_background"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2mdp"
+                android:layout_marginTop="@dimen/_40mdp"
+                android:layout_marginBottom="@dimen/_40mdp"
+                android:background="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_phone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="enter_phone"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="@dimen/_2mdp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/phone_icon"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signup_phone_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:inputType="phone"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sibnup_next_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20mdp"
+            android:background="@drawable/btn_back"
+            android:text="@string/signup"
+            app:backgroundTint="@null"
+            android:onClick="Signup"
+            android:textColor="@color/black"
+            tools:targetApi="lollipop" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:gravity="center"
+            android:text="By signing up you agree to our privacy policy and terms and conditions."
+            android:textSize="@dimen/_10font_mdp" />
+
+
+    </LinearLayout>
+</ScrollView>

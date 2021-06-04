@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".user.quiz.fragments.HomeFragment">
+
+     <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_65mdp"
+        android:background="@drawable/background_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_130mdp"
+        android:layout_marginStart="@dimen/_25mdp"
+        android:layout_marginLeft="@dimen/_25mdp"
+        android:layout_marginTop="@dimen/_16mdp"
+        android:layout_marginEnd="@dimen/_25mdp"
+        android:layout_marginRight="@dimen/_25mdp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/_65mdp"
+        android:layout_height="@dimen/_65mdp"
+        android:layout_marginStart="@dimen/_25mdp"
+        android:layout_marginLeft="@dimen/_25mdp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        android:src="@drawable/quiz_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20mdp"
+        android:fontFamily="@font/muli_bold"
+        android:text="@string/instructions"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_20font_mdp"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_category"
+        android:textColor="@color/color_white"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_quiz"
+        android:textColor="@color/color_white"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/collect_coins"
+        android:textColor="@color/color_white"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/earn_money"
+        android:textColor="@color/color_white"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:layout_marginLeft="@dimen/_8mdp"
+        android:layout_marginTop="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_8mdp"
+        android:layout_marginRight="@dimen/_8mdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinwheel" />
+
+    <TextView
+        android:id="@+id/spinwheel"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_45mdp"
+        android:layout_marginStart="@dimen/_20mdp"
+        android:layout_marginLeft="@dimen/_20mdp"
+        android:layout_marginTop="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_8mdp"
+        android:layout_marginRight="@dimen/_8mdp"
+        android:background="@drawable/button_1"
+        android:drawableLeft="@drawable/spin"
+        android:fontFamily="@font/muli_bold"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_10mdp"
+        android:text="@string/spin_wheel"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_12font_mdp"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_45mdp"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:layout_marginLeft="@dimen/_8mdp"
+        android:layout_marginTop="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_20mdp"
+        android:layout_marginRight="@dimen/_20mdp"
+        android:background="@drawable/button_2"
+        android:drawableLeft="@drawable/share"
+        android:fontFamily="@font/muli_black"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_10mdp"
+        android:text="@string/invite_friends"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_12font_mdp"
+        app:drawableTint="@color/color_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/spinwheel"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

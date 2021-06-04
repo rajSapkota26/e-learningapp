@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".user.activities.RateUsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10mdp"
+        android:backgroundTint="@color/background"
+        android:elevation="@dimen/_30mdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15mdp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/_250mdp"
+                android:layout_height="@dimen/_200mdp"
+                android:elevation="@dimen/_30mdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/elearning" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25mdp"
+                android:layout_marginBottom="@dimen/_5mdp"
+                android:fontFamily="@font/muli_bold"
+                android:gravity="center"
+                android:text="@string/rate_dialog_message"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20font_mdp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/textbk"
+                android:clickable="true"
+                style="@style/RatingBar"
+
+                android:theme="@style/RatingBar" />
+
+            <Button
+                android:layout_width="@dimen/_130mdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/btn_back"
+                android:onClick="rateNow"
+                android:text="@string/rate_dialog_ok"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:layout_width="@dimen/_175mdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/btn_back"
+                android:onClick="returnHome"
+                android:text="@string/rate_dialog_cancel"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:layout_width="@dimen/_200mdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/btn_back"
+                android:onClick="returnHome"
+                android:text="@string/rate_dialog_no"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

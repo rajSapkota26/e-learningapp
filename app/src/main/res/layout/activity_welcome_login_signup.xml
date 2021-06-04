@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="@dimen/_20mdp"
+    tools:context=".loginplussignin.WelcomeLoginSignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200mdp"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/circlerounding" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:fontFamily="@font/muli_extrabold"
+            android:gravity="center"
+            android:text="@string/retailer_heading"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_30font_mdp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_light"
+            android:gravity="center_horizontal"
+            android:text="@string/retailer_desc"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5mdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/logInBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5mdp"
+                android:layout_marginRight="@dimen/_5mdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:onClick="callLoginScreen"
+                app:backgroundTint="@null"
+                android:text="@string/login"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:layout_marginLeft="@dimen/_5mdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:onClick="callSignUpScreen"
+                android:text="@string/signup"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/workBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_weight="1"
+            android:onClick="howWeWork"
+            android:backgroundTint="@color/white"
+            android:text="@string/how_we_work"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+</ScrollView>
